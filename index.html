@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui;
+      background-color:#383838;
+    }
+    .button {
+      top:50%;
+      background-color:#6b634b;
+      color: #fff;
+      border:none;
+      border-radius:5px;
+      min-height:30px;
+      min-width: 120px;
+    }
+    .button:hover {
+      background-color:#42ff42;
+      transition: 0.7s;
+    }
+    .button:active {
+    background-color: #ffbf00;
+    }
+  </style>
+  <meta name="author" content="ZrozDev">
+  <meta name="description" content="A free hardcore browser game from the first person where you, as a rooster, must escape from a farm contaminated with radiation, you must correctly distribute resources and craft medicines">
+  <meta name=”Document-state” content="Dynamic"/>
+  <link rel="canonical" href="https://zrozumilostudio.github.io/">
+  <title>ChickenFine modding documentation!</title>
+  <link rel="shortcut icon" href="images/fine.ico" type="image/x-icon">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "ChickenFine Rooster Coop FPS",
+    "genre": "Action, Survival, Shooter",
+    "operatingSystem": "Windows, Linux",
+    "applicationCategory": "Game",
+    "url": "https://zrozumilostudio.github.io/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ZrozDev"
+    }
+  }
+  </script>
+  <meta name="google-site-verification" content="cBehknX5p17dcULHcwQ7LMNKnx1zVSjVt_RvHE_aBi0" />
+</head>
+<body>
+  <h1 style="color:#42ff42";>ChickenFine Rooster Coop FPS</h1>
+ <p style="color:#abffab";>A hardcore shooter where you turn into a rooster... your wings get wet and dissolve under the acid rain and the sky is painted mint...</p>
+  <h2 style="color:#42ff42";>1.Replacing sounds</h2>
+  <p style="color:#abffab";>I think it's worth starting with the simplest thing, with replacing the sound! Go to the game folder, then engine/assets and there are sounds and music, delete the file with the sound that we want to replace, but copy the name and paste the sound we need, changing its name to the name of the previous sound.</p>
+  <script>
+    function downloadFile(fileName) {
+        var link = document.createElement('a');
+        link.href = fileName;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+  </script>
+</body>
+</html>
